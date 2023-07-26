@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: vprodb
-          image: dakshayahuja/vprofiledb:latest
+          image: dakshayahuja/vprofiledb
           ports:
           - name: vprodb-port
             containerPort: 3306
